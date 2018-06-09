@@ -87,7 +87,7 @@ if arch == 'ppc64':
 print 'tasks,processes,processes_idle,threads,threads_idle,linear'
 print '0,0,100,0,100,0'
 
-step = 1
+step = 2
 # if step=5, this is: [5, 10, 15, ... nr_cores]
 data_points = range(step, nr_cores+step, step)
 # this makes it [ 1, 5, 10, ... ]
